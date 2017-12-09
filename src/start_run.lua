@@ -1,5 +1,4 @@
 return function()
-	local tostring = tostring
 	local status = status
 	local texio_write = texio.write
 	local texio_write_nl = texio.write_nl
