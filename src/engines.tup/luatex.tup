@@ -1,0 +1,7 @@
+ifdef LUATEX
+LUATEX = @(LUATEX)
+else
+LUATEX = luatex
+endif
+
+!texluac = |> $(LUATEX) --luaconly @(LUATEX_LUAC_FLAGS) -o %o -- %f |> %B.texluabc
